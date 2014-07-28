@@ -17,11 +17,6 @@ function htmlEncode(value){
       return o;
     };
 
-    $.ajaxPrefilter( function( options, originalOptions, jqXHR ) {
-      options.url = 'http://backbonejs-beginner.herokuapp.com' + options.url; 
-
-    });
-
     var Users = Backbone.Collection.extend({
       url: '/users'
     });
