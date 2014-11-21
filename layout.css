@@ -1,0 +1,14 @@
+.mainList-layout {
+  width:80%;
+  margin:auto;
+}
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+
